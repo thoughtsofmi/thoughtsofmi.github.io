@@ -2,16 +2,16 @@
     box-sizing: border-box;
     //border: 1px dashed red;
 }
-body, img {
-    width: 100%;
-}
+// body, img {
+//     width: 100%;
+// }
 
 header {
     position: relative;
     width: 100%;
     text-align: center;
     color: #fff;
-    background-image: url(../assets/img_7953.jpg);
+    background-image: url(../assets/IMG_7953.jpg);
     background-size: cover;
     .header-content {
         position: relative;
@@ -54,7 +54,11 @@ header {
   }
 }
 .profile-pic img{
-  height: 50%;
-  width: 50%;
-  border-radius: 70%;
+  // height: 50%;
+  // width: 50%;
+  //border-radius: 50%;
+}
+
+.bio {
+  background-color: #C97B84;
 }
