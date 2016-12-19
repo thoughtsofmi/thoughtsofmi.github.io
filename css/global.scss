@@ -11,7 +11,7 @@ header {
     width: 100%;
     text-align: center;
     color: #fff;
-    background-image: url(../assets/img_7953.jpg);
+    background-image: url(/assets/img_7953.jpg);
     background-size: cover;
     .header-content {
         position: relative;
@@ -52,4 +52,9 @@ header {
    i:hover{
     color: #C97B84;
   }
+}
+.profile-pic img{
+  height: 50%;
+  width: 50%;
+  border-radius: 70%;
 }
