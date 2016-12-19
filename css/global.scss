@@ -59,6 +59,12 @@ header {
     color: #fff;
     background-image: url(../assets/IMG_7953.jpg);
     background-size: cover;
+   min-height: auto;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   height: 600px;
     .header-content {
         position: relative;
         width: 100%;
@@ -73,6 +79,9 @@ header {
     }
     hr {
        margin: 30px auto;
+   }
+   .whiteT {
+     color: white;
    }
    .name {
      font-size: 100px;
