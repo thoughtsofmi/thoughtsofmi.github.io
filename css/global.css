@@ -163,3 +163,7 @@ header i:hover {
   background-color: #33032F;
   color: white;
 }
+
+footer {
+  height: 300px;
+}
