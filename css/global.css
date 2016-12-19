@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.light {
+  border-color: #fff;
+}
+
 .navbar-default {
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -124,6 +128,16 @@ header i:hover {
   width: 50%;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.bio .bioName {
+  font-size: 20px;
+  color: white;
+}
+
+.bio .bioP {
+  font-size: 16px;
+  color: white;
 }
 
 .portfolioH {
