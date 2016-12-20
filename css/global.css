@@ -132,7 +132,7 @@ header .title {
   margin-bottom: 50px;
   font-size: 24px;
   font-weight: 300;
-  color: white;
+  color: #403F4C;
 }
 
 header .githubBtn {
@@ -224,7 +224,7 @@ header i:hover {
 }
 
 #portfolio .portfolioG {
-  background-color: #1B2432;
+  background-color: #1E1A1B;
   color: white;
 }
 
