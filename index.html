@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Young Mi Kim</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,16 +16,12 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+
+
         <a class="navbar-brand page-scroll" href="#page-top">Young Mi Kim</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="page-scroll" href="#about">Bio</a></li>
           <li><a class="page-scroll" href="#services">Tech</a></li>
@@ -40,24 +36,24 @@
   <header>
     <div class="container header-content">
       <div class="row">
-        <div class="col-sm-12 header-content-inner">
+        <div class="col-sm-12 headerIn">
           <span class="name">Young Mi Kim</span>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 header-content-inner">
+        <div class="col-sm-12 headerIn">
           <span class="title">Front-End Engineer </span>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 header-content-inner social-media-links">
-          <a href="http://www.github.com/thoughtsofmi" class="btn btn-social-icon btn-github" target="blank">
+        <div class="col-sm-12 headerIn social-media-links">
+          <a href="http://www.github.com/thoughtsofmi" class="btn btn-social-icon githubBtn" target="blank">
             <i class="fa fa-github"></i>
           </a>
-          <a href="https://twitter.com/thoughts_of_mi" class="btn btn-social-icon btn-twitter" target="blank">
+          <a href="https://twitter.com/thoughts_of_mi" class="btn btn-social-icon twitterBtn" target="blank">
             <i class="fa fa-twitter"></i>
           </a>
-          <a href="https://www.linkedin.com/in/ymkim23" class="btn btn-social-icon btn-linkedin" target="blank">
+          <a href="https://www.linkedin.com/in/ymkim23" class="btn btn-social-icon linkedinBtn" target="blank">
             <i class="fa fa-linkedin"></i>
           </a>
         </div>
@@ -70,7 +66,7 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="profile-pic">
-            <p><img src="/assets/square.jpg" class="img-responsive center-block img-circle"></p>
+            <p><img src="/assets/square.jpg" class="img-responsive center-block img-circle" alt="young mi profile pic"></p>
           </div>
         </div>
         <div class="col-sm-4 ">
@@ -100,7 +96,7 @@
       <div class="row">
         <div class="col-lg-4 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-desktop wow bounceIn text-primary"></i>
+            <i class="fa fa-4x fa-desktop techI"></i>
             <h3>Front End</h3>
             <p class="text-muted">HTML, CSS, Sass and JavaScript</p>
           </div>
@@ -108,7 +104,7 @@
         <div class="col-lg-4 text-center">
           <div class="tech-icons">
             <div class="service-box techs">
-              <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" ></i>
+              <i class="fa fa-4x fa-folder-o techI" ></i>
               <h3>Frameworks</h3>
               <p class="text-muted"> Bootstrap and React</p>
             </div>
@@ -117,7 +113,7 @@
         <div class="col-lg-4 text-center">
           <div class="tech-icons">
             <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+              <i class="fa fa-4x fa-newspaper-o techI"></i>
               <h3>GitHub</h3>
               <p class="text-muted">Mainly used Github from the commandline. We pushed and pulled code, as well as practicing code review and solving merge conflicts.</p>
             </div>
@@ -129,15 +125,15 @@
     </div>
   </section>
 
-  <section class="no-padding bg-dark portfolioH" id="portfolio">
-    <div class="container text-center">
+  <section class="no-padding bg-dark" id="portfolio">
+    <div class="container-fluid text-center portfolioH">
       <div class="row">
         <div class="col-lg-12 col-xs-12">
           <h2 class="projects">Portfolio</h2>
         </div>
       </div>
     </div>
-  </section>
+
 
   <div class="container-fluid portfolio1 " id="port1">
     <div class="row">
@@ -153,7 +149,7 @@
               </div>
               <hr />
               <div class="projectDesc">
-                This was my final project at The Iron Yard.  I partnered with a Ruby on Rails back-end engineer, Brent Watson.  This is an event planning app that will help you organize your tasks and keep you on track with your vendors.
+                This was my final project at The Iron Yard.  I partnered with a Ruby on Rails back-end engineer, Brent Watson.  This is an event planning app that will help you organize your tasks and keep you on track with your vendors.  This app helped me understand the power of React and managing the state of multiple components pulled in.
               </div>
               <hr />
               <div class="projectTools">
@@ -161,12 +157,11 @@
               </div>
               <hr />
               <div class="text-center">
-                <a href="https://github.com/brentmwatson/EvenTime-" target="blank"><button class="btn btn-default portBtn">GitHub Code</button></a>
+                <a href="https://github.com/thoughtsofmi/EvenTime-" target="blank"><button class="btn btn-default portBtn">GitHub Code</button></a>
               </div>
             </div>
           </div>
         </div>
-
         <div class="container-fluid portfolio1" id="port2">
           <div class="row">
             <div class="col-sm-8">
@@ -181,7 +176,7 @@
                     </div>
                     <hr />
                     <div class="projectDesc">
-                      This was a group project that we worked on as a team of three front-end engineers and two back-end engineers.  We made an e-commerce store from start to finish.
+                      This was a group project that we worked on as a team of three front-end engineers and two back-end engineers.  We made an e-commerce store from start to finish during Agency Week.  This week allowed the students to interview our "client" to determine the needs of the website. We also used Heroku, Ruby on Rails, and API connections.
                     </div>
                     <hr />
                     <div class="projectTools">
@@ -189,7 +184,7 @@
                     </div>
                     <hr />
                     <div class="text-center">
-                      <a href="https://github.com/mannyy91s/w8-make-a-Ecommerce-store" target="blank"><button class="btn btn-default portBtn">GitHub Code</button></a>
+                      <a href="https://github.com/thoughtsofmi/w8-make-a-Ecommerce-store" target="blank"><button class="btn btn-default portBtn">GitHub Code</button></a>
                     </div>
                   </div>
                 </div>
@@ -204,19 +199,19 @@
                     <div class="col-sm-4">
                       <br />
                           <div class="projectTitle">
-                            Live Etsy
+                            Live Etsy API
                           </div>
                           <hr />
                           <div class="projectDesc">
-                            This was one of my favorite projects.  We used the Etsy api to mock up Etsy page.
+                            This was one of my favorite projects.  We used the Etsy api to mock up an Etsy page and pulling in live data using native dom.
                           </div>
                           <hr />
                           <div class="projectTools">
-                            HTML CSS SASS Dom Bootstrap
+                            HTML CSS SASS Bootstrap
                           </div>
                           <hr />
                           <div class="text-center">
-                            <a href="https://github.com/thoughtsofmi/w4d3-add-live-etsy-api-data" target="blank"><button class="btn btn-default portBtn">GitHub Code</button></a>
+                            <a href="https://github.com/thoughtsofmi/w4d3-add-live-etsy-api-data" target="blank"><button class="btn portBtn">GitHub Code</button></a>
                           </div>
                         </div>
                       </div>
@@ -226,10 +221,10 @@
 
   <div class="row text-center portfolioG">
     <div class="col-lg-12 col-xs-12 text-center github-profile">
-      <p> For more examples of my work look me up on <a href="http://www.github.com/ymkim23" target="blank" alt="GitHub">GitHub</a></p>
+      <p> For more examples of my work look me up on <a href="http://www.github.com/ymkim23" target="blank">GitHub</a></p>
     </div>
   </div>
-
+</section>
 
   <footer id="contact">
     <div class="container">
@@ -240,24 +235,30 @@
 
           <h2 class="section-heading">Where to find me!</h2>
           <hr class="primary">
-          <p>Give me a call or send me an email and I will get back to you as soon as possible!</p>
+
           <br />
         </div>
         <div class="row">
-          <div class="col-sm-6 text-center">
-            <i class="fa fa-phone fa-3x wow bounceIn"></i>
+          <div class="col-sm-4 text-center">
+            <i class="fa fa-phone fa-3x techI"></i>
             <p><a href="tel://16783137098">678-313-7098</a></p>
           </div>
-          <div class="col-sm-6 text-center">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn"></i>
+          <div class="col-sm-4 text-center">
+            <i class="fa fa-file-text-o fa-3x techI"></i>
+            <p><a href="assets/emily.res.pdf" target="_blank">Resume</a></p>
+          </div>
+          <div class="col-sm-4 text-center">
+            <i class="fa fa-envelope-o fa-3x techI"></i>
             <p><a href="mailto:ymkim23@gmail.com">ymkim23@gmail.com</a></p>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    <!-- </div> -->
   </footer>
 
   <!-- Scripts go here. -->
   <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+    <!-- <script type="text/javascript" src="global.js"></script> -->
 </body>
 </html>
